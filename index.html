@@ -7,9 +7,10 @@ title: VandyApps, Vanerbilt Computer Science Club
 			<h1>Welcome to VandyApps!</h1>
 			<p><a href="/about">Read more about us...</a></p>
 		</div> 
+        <h2>Announcements</h2>
 <ul class="posts">
 
-  {% for post in site.posts %}
+  {% for post in site.announcements %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
     

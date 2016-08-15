@@ -10,7 +10,7 @@ title: VandyApps, Vanerbilt Computer Science Club
         <h3>Announcements</h3>
 <ul class="posts">
 
-  {% for post in site.announcements %}
+  {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
     

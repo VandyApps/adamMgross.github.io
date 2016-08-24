@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vanderbilt Classes Start:
+title: "Vanderbilt Classes Start"
 date: 2016-08-24
 ---
 

@@ -15,12 +15,6 @@ p, ul
   color: #333; 
 } 
 
-li, li li 
-{ font-family: 'Lucidia Sans Unicode', 'Lucidia Grande', 'Sans-Serif';
-  font-size: 1.0em;
-  line-height: 1.0em;
-  color: #333;
-}
 h1, h2, h3, h4 
 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }

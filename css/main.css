@@ -8,13 +8,19 @@ a { text-decoration: none;
 
 a:hover { text-decoration: underline; }
 
-p, ul, li, li li 
+p, ul
 { font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
   font-size: 1.5em; 
   line-height: 1.4em; 
   color: #333; 
-}
+} 
 
+li, li li 
+{ font-family: 'Lucidia Sans Unicode', 'Lucidia Grande', 'Sans-Serif';
+  font-size: 1.0em;
+  line-height: 1.0em;
+  color: #333;
+}
 h1, h2, h3, h4 
 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }

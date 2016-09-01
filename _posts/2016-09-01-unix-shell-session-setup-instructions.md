@@ -12,19 +12,19 @@ date: 2016-09-01
 ## Next Steps
 We will do the following steps in our first session, but feel free to go ahead on your own if you would like. There are [comprehensive walkthroughs](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html), help and answers to FAQs in the AWS documentation so you should be able to clarify anything that is unclear here:
 
-* Launch an EC2 instance
-	* Use the free-tier, default size instance
-	* Choose Ubuntu for your OS
-	* Store your ssh key somewhere on your local machine (and remember where you put it!)
-	* Change the network/security settings on your instance to allow access from all IP addresses (0.0.0.0)
+### Launch an EC2 instance
+* Use the free-tier, default size instance
+* Choose Ubuntu for your OS
+* Store your ssh key somewhere on your local machine (and remember where you put it!)
+* Change the network/security settings on your instance to allow access from all IP addresses (0.0.0.0)
 * SSH into your instance from your terminal
-    
-    ```
-    ssh -i <your ssh key file> ubuntu@<public IP address of instance>
-    ```
- 
-    for example:
 
-    ```
-    ssh -i adams-key.pem ubuntu@52.34.56.92
-    ```
+```
+ssh -i <your ssh key file> ubuntu@<public IP address of instance>
+```
+
+for example:
+
+```
+ssh -i adams-key.pem ubuntu@52.34.56.92
+```

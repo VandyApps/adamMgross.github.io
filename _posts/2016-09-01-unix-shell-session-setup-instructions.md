@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Unix Shell Session Setup"
+date: 2016-09-01
+---
 ## Unix Shell Session Setup
 
 * [Sign up for an AWS account](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html)

@@ -19,12 +19,12 @@ We will do the following steps in our first session, but feel free to go ahead o
 * Change the network/security settings on your instance to allow access from all IP addresses (0.0.0.0)
 * SSH into your instance from your terminal
 
-```
-ssh -i <your ssh key file> ubuntu@<public IP address of instance>
-```
+    ```
+    ssh -i <your ssh key file> ubuntu@<public IP address of instance>
+    ```
 
-for example:
+    for example:
 
-```
-ssh -i adams-key.pem ubuntu@52.34.56.92
-```
+    ```
+    ssh -i adams-key.pem ubuntu@52.34.56.92
+    ```

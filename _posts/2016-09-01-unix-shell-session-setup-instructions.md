@@ -3,8 +3,6 @@ layout: post
 title: "Unix Shell Session Setup"
 date: 2016-09-01
 ---
-## Unix Shell Session Setup
-
 * [Sign up for an AWS account](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html)
 * Enter your billing address and credit card information. You will not be charged for anything, you just need to put in your payment information. You will only get charged for something if your usage exceeds the free tier limits. For our sessions, we will not exceed this limit (make sure you turn off your VMs when they're not in use to avoid charges)
 * If you have Windows, [install PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) so that you can remote login (ssh) to your virtual machine

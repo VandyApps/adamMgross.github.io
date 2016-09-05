@@ -53,17 +53,23 @@ Now we need to create a key-and-lock pair for our instance so that when we ssh t
 Now we need to change the permissions on that file to make it restricted. If you're on windows, right click the file and go to Properties -> Security -> Edit and change the permissions to read only. If you're on a Linux-based OS let's do it on the command line:
 
 * Open your terminal
+
 ```
 cd path-of/folder/that-holds/your_key
 ```
+
 CD, or "change directory" moves you from your current directory to the new directory you specify. This is like clicking on a folder in Finder/My Computer except that you can go straight into a nested folder by providing the full path. Then, we will use the LS command, or "list" to show the contents of the directory we are now in. However, we are here to change the permissions to a file, so let's type:
+
 ```
 ls -l
 ```
+
 This will also show the read/write/execute permissions of all the contents of the directory we are in. Now we want to use the CHMOD command to change the permissions on our file. The structure of the command is:
+
 ```
 chmod <number> <file to be chmodded>
 ```
+
 The number here (always 3 digits) represents a certain permission level. The number can be determined as follows: Each digit corresponds to a level of user, i.e. (normal)(privileged)(root). The number to be placed in each digit is the decimal equivalent of the binary representation for the deisred permissions in the format read|write|execute, where 1 represents a "yes", or "permitted", and a 0 represents a "no", or "not permitted". So we want everyone do be able to read this file, and that's it. No writing, no executing. So that would result in:
 * First digit: (1|0|0)
 * Second digit: (0|0|0)
@@ -75,10 +81,13 @@ Now we drop the fluff and convert from binary to decimal to a chmod argument num
 If this is still unclear, check out [this tutorial](http://www.tutorialspoint.com/unix/unix-file-permission.htm) out for more clarity.
 
 Now go back to your [console page](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1). Find the public IP address of your instance, and once the instance state goes from “pending” to “running”, try sshing in. Linux-based OS users: open your terminal and type
+
 ```
 ssh -i path-to/ssh_key/file ubuntu@<public IP address>
 ```
+
 For example:
+
 ```
 ssh -i unix-shell-sesh.pem ubuntu@54.166.96.4
 ```

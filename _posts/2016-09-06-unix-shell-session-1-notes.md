@@ -52,7 +52,7 @@ Now we need to create a key-and-lock pair for our instance so that when we ssh t
 
 Now we need to change the permissions on that file to make it restricted. If you're on windows, right click the file and go to Properties -> Security -> Edit and change the permissions to read only. If you're on a Linux-based OS let's do it on the command line:
 
-Open your terminal
+Open your terminal, then type:
 
 ```
 cd path-of/folder/that-holds/your_key

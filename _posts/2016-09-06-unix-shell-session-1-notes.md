@@ -70,7 +70,6 @@ This will also show the read/write/execute permissions of all the contents of th
 chmod <number> <file to be chmodded>
 ```
 
-
 The number here (always 3 digits) represents a certain permission level. The number can be determined as follows: Each digit corresponds to a level of user, i.e. (normal)(privileged)(root). The number to be placed in each digit is the decimal equivalent of the binary representation for the deisred permissions in the format read|write|execute, where 1 represents a "yes", or "permitted", and a 0 represents a "no", or "not permitted". So we want everyone do be able to read this file, and that's it. No writing, no executing. So that would result in:
 
 * First digit: (1|0|0)

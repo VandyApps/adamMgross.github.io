@@ -1,5 +1,8 @@
-# Unix Shell Session 1
-
+---
+layout: post
+title: "Unix Shell Session 1 Notes"
+date: 2016-09-06
+---
 ## What is a "shell"?
 
 A shell is an interface between you and your computer. You normally use a GUI (graphical user interface) which consists of a combination of clicking buttons and icons, typing into prompts, and navigating visual representations of file systems (among other things as well) in order to do things on your computer. A shell is not a "graphical" but rather a text-based setting in which you can do things on your computer. It's called a shell because it is a "shell" around the internals of your computer. 
